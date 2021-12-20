@@ -13,7 +13,7 @@ public class MainActivity extends BaseActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
-        startActivity(Auth.class);
+//        startActivity(Auth.class);
 
     }
 }
