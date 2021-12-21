@@ -5,4 +5,6 @@
     <string name="cart">cart</string>
     <string name="profile">profile</string>
     <string name="mainheading">Order online collect in store</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
 </resources>
