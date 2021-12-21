@@ -14,6 +14,6 @@ public class MainActivity extends BaseActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
-        findViewById(R.id.home).setOnClickListener(v -> startActivity(Auth.class));
+
     }
 }

@@ -1,3 +1,7 @@
 <resources>
     <string name="app_name">Shoping</string>
+    <string name="home">home</string>
+    <string name="liked">liked</string>
+    <string name="cart">cart</string>
+    <string name="profile">profile</string>
 </resources>
