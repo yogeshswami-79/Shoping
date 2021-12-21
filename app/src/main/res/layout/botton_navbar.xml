@@ -9,52 +9,53 @@
 
     <LinearLayout
         android:layout_width="350dp"
-        android:paddingVertical="4dp"
         android:layout_height="50dp"
         android:layout_gravity="center"
-        android:paddingStart="20dp"
-        android:paddingEnd="20dp"
         android:gravity="center"
         android:orientation="horizontal"
+        android:paddingVertical="4dp"
+        android:paddingStart="20dp"
+        android:paddingEnd="20dp"
         android:weightSum="4">
 
         <ImageButton
-            android:layout_marginHorizontal="8dp"
             android:id="@+id/home"
             android:layout_width="0dp"
             android:layout_height="match_parent"
             android:layout_alignParentStart="true"
+            android:layout_marginHorizontal="8dp"
             android:layout_weight="1"
+            android:background="@drawable/ic_home"
             android:labelFor="@id/home" />
 
         <ImageButton
-            android:layout_marginHorizontal="8dp"
-
             android:id="@+id/liked"
             android:layout_width="0dp"
             android:layout_height="match_parent"
+            android:layout_marginHorizontal="8dp"
             android:layout_toEndOf="@id/home"
             android:layout_weight="1"
+            android:background="@drawable/ic_liked"
             android:labelFor="@id/liked" />
 
         <ImageButton
-            android:layout_marginHorizontal="8dp"
-
             android:id="@+id/cart"
             android:layout_width="0dp"
             android:layout_height="match_parent"
+            android:layout_marginHorizontal="8dp"
             android:layout_toEndOf="@+id/liked"
             android:layout_weight="1"
+            android:background="@drawable/ic_cart"
             android:labelFor="@id/cart" />
 
         <ImageButton
-            android:layout_marginHorizontal="8dp"
-
             android:id="@+id/profile"
             android:layout_width="0dp"
             android:layout_height="match_parent"
+            android:layout_marginHorizontal="8dp"
             android:layout_toEndOf="@id/cart"
             android:layout_weight="1"
+            android:background="@drawable/ic_profile"
             android:labelFor="@id/profile" />
     </LinearLayout>
 </LinearLayout>

@@ -3,6 +3,9 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
+        <entry key="app/src/main/res/drawable/ic_cart.xml" value="0.25416666666666665" />
+        <entry key="app/src/main/res/drawable/ic_lockpassword_icon.xml" value="0.25416666666666665" />
+        <entry key="app/src/main/res/drawable/ic_messagemail_icon.xml" value="0.25416666666666665" />
         <entry key="app/src/main/res/drawable/login_bg.xml" value="0.1361111111111111" />
         <entry key="app/src/main/res/drawable/login_btn.xml" value="0.1537037037037037" />
         <entry key="app/src/main/res/drawable/mail_icon.xml" value="0.1" />
