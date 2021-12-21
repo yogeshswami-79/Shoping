@@ -4,4 +4,5 @@
     <string name="liked">liked</string>
     <string name="cart">cart</string>
     <string name="profile">profile</string>
+    <string name="mainheading">Order online collect in store</string>
 </resources>
