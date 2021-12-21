@@ -14,7 +14,8 @@
         <entry key="app/src/main/res/drawable/mail_icon.xml" value="0.1" />
         <entry key="app/src/main/res/drawable/searchbar.xml" value="0.25416666666666665" />
         <entry key="app/src/main/res/layout/activity_auth.xml" value="0.25" />
-        <entry key="app/src/main/res/layout/activity_main.xml" value="0.23802083333333332" />
+        <entry key="app/src/main/res/layout/activity_main.xml" value="0.1698019003213319" />
+        <entry key="app/src/main/res/layout/activity_test.xml" value="0.14144736842105263" />
         <entry key="app/src/main/res/layout/botton_navbar.xml" value="0.18705283257597216" />
         <entry key="app/src/main/res/layout/fragment_first.xml" value="0.23802083333333332" />
         <entry key="app/src/main/res/menu/bottom_navigation_menu.xml" value="0.23802083333333332" />

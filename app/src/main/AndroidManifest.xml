@@ -10,6 +10,9 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.Shoping">
         <activity
+            android:name=".Activities.Test.TestActivity"
+            android:exported="false" />
+        <activity
             android:name=".Activities.Auth.Auth"
             android:exported="false" />
         <activity

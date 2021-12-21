@@ -1,4 +1,6 @@
-package com.icmi.Shoping.Activities.Auth;
+package com.icmi.Shoping.Activities.Test;
+
+import androidx.appcompat.app.AppCompatActivity;
 
 import android.os.Bundle;
 
@@ -6,12 +8,13 @@ import com.icmi.Shoping.Activities.BaseActivity;
 import com.icmi.Shoping.Activities.Home.MainActivity;
 import com.icmi.Shoping.R;
 
-public class Auth extends BaseActivity {
+public class TestActivity extends BaseActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_auth);
+        setContentView(R.layout.activity_test);
+
 
     }
 
