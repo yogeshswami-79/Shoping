@@ -1,6 +1,5 @@
 package com.icmi.Shoping.Activities.Test;
 
-import androidx.appcompat.app.AppCompatActivity;
 
 import android.os.Bundle;
 
