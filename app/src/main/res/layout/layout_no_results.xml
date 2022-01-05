@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_gravity="center"
+    android:gravity="center"
+    android:orientation="vertical">
+
+    <ImageView
+        android:layout_width="250dp"
+        android:layout_height="250dp"
+        android:scaleY="1.5"
+        android:scaleX="1.5"
+        android:scaleType="fitXY"
+        android:src="@mipmap/img_no_results_fgl" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/raleway_semibold"
+        android:padding="1dp"
+        android:text="Item not found"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:textColor="@color/black"
+        android:layout_marginHorizontal="50dp"
+        android:textSize="28sp" />
+
+    <TextView
+        android:padding="1dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="50dp"
+        android:layout_marginVertical="10dp"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:fontFamily="@font/raleway_bold"
+        android:text="Try a more generic search term or try looking for alternative products."
+        android:textSize="17sp" />
+</LinearLayout>
