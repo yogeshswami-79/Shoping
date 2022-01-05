@@ -8,6 +8,7 @@
         <entry key="app/src/main/res/drawable/bg_searchbar.xml" value="0.25416666666666665" />
         <entry key="app/src/main/res/drawable/ic_cart.xml" value="0.25416666666666665" />
         <entry key="app/src/main/res/drawable/ic_home.xml" value="0.25416666666666665" />
+        <entry key="app/src/main/res/drawable/ic_liked.xml" value="0.22694063926940639" />
         <entry key="app/src/main/res/drawable/ic_lockpassword_icon.xml" value="0.25416666666666665" />
         <entry key="app/src/main/res/drawable/ic_menu.xml" value="0.2228310502283105" />
         <entry key="app/src/main/res/drawable/ic_messagemail_icon.xml" value="0.25416666666666665" />
@@ -21,12 +22,13 @@
         <entry key="app/src/main/res/layout/activity_auth.xml" value="0.25" />
         <entry key="app/src/main/res/layout/activity_item_view.xml" value="0.25" />
         <entry key="app/src/main/res/layout/activity_main.xml" value="0.25" />
+        <entry key="app/src/main/res/layout/activity_profile.xml" value="0.165" />
         <entry key="app/src/main/res/layout/activity_search.xml" value="0.21574074074074073" />
         <entry key="app/src/main/res/layout/activity_test.xml" value="0.14144736842105263" />
         <entry key="app/src/main/res/layout/botton_navbar.xml" value="0.18705283257597216" />
         <entry key="app/src/main/res/layout/fragment_first.xml" value="0.10048340950755792" />
         <entry key="app/src/main/res/layout/fragment_search.xml" value="0.21157407407407408" />
-        <entry key="app/src/main/res/layout/itemview.xml" value="0.11414776598182169" />
+        <entry key="app/src/main/res/layout/itemview.xml" value="0.30706594040190355" />
         <entry key="app/src/main/res/layout/layout_cart.xml" value="0.25" />
         <entry key="app/src/main/res/layout/layout_no_results.xml" value="0.21574074074074073" />
         <entry key="app/src/main/res/layout/layout_payment.xml" value="0.18611111111111112" />

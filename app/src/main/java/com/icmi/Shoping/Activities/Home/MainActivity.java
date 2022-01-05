@@ -91,7 +91,9 @@ public class MainActivity extends BaseActivity {
     private void intializeViewComponents() {
         vp = findViewById(R.id.itemViewPager);
         tl = findViewById(R.id.category_tabLayout);
-        findViewById(R.id.profile).setOnClickListener(v -> startActivity(Auth.class, null, false));
+        findViewById(R.id.profile).setOnClickListener(v -> setContentView(R.layout.activity_profile));
+
+//        findViewById(R.id.profile).setOnClickListener(v -> startActivity(Auth.class, null, false));
         findViewById(R.id.cart).setOnClickListener(v -> startActivity(ItemActivity.class, null, true));
 
         ImageButton menuBtn = findViewById(R.id.menuBtn);
