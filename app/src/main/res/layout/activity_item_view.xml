@@ -61,9 +61,9 @@
         <HorizontalScrollView
             android:layout_width="match_parent"
             android:layout_height="60dp"
-            android:fadeScrollbars="true"
             android:layout_marginStart="40dp"
-            android:layout_marginBottom="15dp">
+            android:layout_marginBottom="15dp"
+            android:fadeScrollbars="true">
 
             <LinearLayout
                 android:id="@+id/ll"
@@ -77,8 +77,8 @@
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_marginStart="45dp"
             android:layout_marginVertical="5dp"
+            android:layout_marginStart="45dp"
             android:fontFamily="@font/raleway_bold"
             android:text="Get Apple TV+ free for a year"
             android:textSize="17sp" />
@@ -96,7 +96,6 @@ $4.99/month after free trial."
             android:textSize="15sp" />
 
         <Button
-            android:textAllCaps="false"
             style="@style/Widget.AppCompat.Button.Borderless"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
@@ -104,36 +103,16 @@ $4.99/month after free trial."
             android:fontFamily="@font/raleway_bold"
             android:padding="0dp"
             android:text="Full description ->"
+            android:textAllCaps="false"
             android:textColor="#5956E9"
             android:textSize="15sp" />
 
-        <RelativeLayout
-            android:layout_width="match_parent"
+        <include
+            layout="@layout/layout_total"
+            android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginHorizontal="48dp"
-            android:layout_marginVertical="10dp"
-            android:paddingVertical="4dp"
-            android:paddingStart="20dp"
-            android:paddingEnd="20dp">
-
-            <TextView
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_alignParentStart="true"
-                android:fontFamily="@font/raleway_bold"
-                android:text="Total"
-                android:textColor="@color/black"
-                android:textSize="17sp" />
-
-            <TextView
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_alignParentEnd="true"
-                android:fontFamily="@font/raleway_bold"
-                android:text="$579"
-                android:textColor="#5956E9"
-                android:textSize="22sp" />
-        </RelativeLayout>
+            android:layout_marginVertical="10dp" />
 
         <Button
             android:layout_width="wrap_content"
