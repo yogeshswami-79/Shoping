@@ -20,6 +20,6 @@ public class TestActivity extends BaseActivity {
     @Override
     public void onBackPressed() {
         super.onBackPressed();
-        startActivity(MainActivity.class);
+        startActivity(MainActivity.class, null, true);
     }
 }
