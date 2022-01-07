@@ -86,7 +86,7 @@
 
         <Button
             android:id="@+id/loginBtn"
-            android:background="@drawable/login_btn"
+            android:background="@drawable/btn_bg"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_gravity="center"

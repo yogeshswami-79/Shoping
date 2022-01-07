@@ -4,10 +4,14 @@
     <option name="filePathToZoomLevelMap">
       <map>
         <entry key="../../../../layout/custom_preview.xml" value="0.24923076923076923" />
+        <entry key="app/src/main/res/drawable-v24/ic_launcher_foreground.xml" value="0.22694063926940639" />
         <entry key="app/src/main/res/drawable/bg_navbar.xml" value="0.25416666666666665" />
         <entry key="app/src/main/res/drawable/bg_searchbar.xml" value="0.25416666666666665" />
+        <entry key="app/src/main/res/drawable/ic_arrow___left.xml" value="0.22694063926940639" />
         <entry key="app/src/main/res/drawable/ic_cart.xml" value="0.25416666666666665" />
+        <entry key="app/src/main/res/drawable/ic_delete.xml" value="0.21388888888888888" />
         <entry key="app/src/main/res/drawable/ic_home.xml" value="0.25416666666666665" />
+        <entry key="app/src/main/res/drawable/ic_launcher_background.xml" value="0.22694063926940639" />
         <entry key="app/src/main/res/drawable/ic_liked.xml" value="0.22694063926940639" />
         <entry key="app/src/main/res/drawable/ic_lockpassword_icon.xml" value="0.25416666666666665" />
         <entry key="app/src/main/res/drawable/ic_menu.xml" value="0.2228310502283105" />
@@ -19,17 +23,21 @@
         <entry key="app/src/main/res/drawable/mail_icon.xml" value="0.1" />
         <entry key="app/src/main/res/drawable/searchbar.xml" value="0.25416666666666665" />
         <entry key="app/src/main/res/drawable/test.xml" value="8.646658581354048" />
+        <entry key="app/src/main/res/layout/actionbar_view.xml" value="0.21574074074074073" />
         <entry key="app/src/main/res/layout/activity_auth.xml" value="0.25" />
         <entry key="app/src/main/res/layout/activity_item_view.xml" value="0.25" />
         <entry key="app/src/main/res/layout/activity_main.xml" value="0.25" />
+        <entry key="app/src/main/res/layout/activity_order_history.xml" value="0.16944444444444445" />
         <entry key="app/src/main/res/layout/activity_profile.xml" value="0.165" />
         <entry key="app/src/main/res/layout/activity_search.xml" value="0.21574074074074073" />
         <entry key="app/src/main/res/layout/activity_test.xml" value="0.14144736842105263" />
+        <entry key="app/src/main/res/layout/bottom_navbar.xml" value="0.16018518518518518" />
         <entry key="app/src/main/res/layout/botton_navbar.xml" value="0.18705283257597216" />
         <entry key="app/src/main/res/layout/fragment_first.xml" value="0.10048340950755792" />
         <entry key="app/src/main/res/layout/fragment_search.xml" value="0.21157407407407408" />
         <entry key="app/src/main/res/layout/itemview.xml" value="0.30706594040190355" />
         <entry key="app/src/main/res/layout/layout_cart.xml" value="0.25" />
+        <entry key="app/src/main/res/layout/layout_no_order_history.xml" value="0.21574074074074073" />
         <entry key="app/src/main/res/layout/layout_no_results.xml" value="0.21574074074074073" />
         <entry key="app/src/main/res/layout/layout_payment.xml" value="0.18611111111111112" />
         <entry key="app/src/main/res/layout/layout_total.xml" value="0.1" />

@@ -1,44 +1,54 @@
 package com.icmi.Shoping.Activities.Home;
 
-import android.content.IntentFilter;
-import android.net.ConnectivityManager;
 import android.os.Bundle;
+import android.view.Menu;
+import android.view.MenuInflater;
+import android.view.MenuItem;
 import android.view.View;
-import android.view.ViewGroup;
 import android.widget.ImageButton;
+import android.widget.SimpleAdapter;
 import android.widget.Toast;
 
+import androidx.annotation.LayoutRes;
 import androidx.annotation.NonNull;
+import androidx.annotation.RawRes;
 import androidx.appcompat.widget.SearchView;
 import androidx.drawerlayout.widget.DrawerLayout;
-import androidx.fragment.app.Fragment;
 import androidx.recyclerview.widget.RecyclerView;
 import androidx.viewpager2.widget.ViewPager2;
 
+import com.google.android.material.bottomnavigation.BottomNavigationItemView;
+import com.google.android.material.bottomnavigation.BottomNavigationMenu;
 import com.google.android.material.navigation.NavigationView;
 import com.google.android.material.tabs.TabLayout;
-import com.google.android.material.textfield.TextInputLayout;
 import com.icmi.Shoping.Activities.Auth.Auth;
 import com.icmi.Shoping.Activities.BaseActivity;
-import com.icmi.Shoping.Activities.ItemViewActivity.ItemActivity;
+import com.icmi.Shoping.Activities.OrderHistory.OrderHistoryActivity;
+import com.icmi.Shoping.Activities.Profile.ProfileActivity;
 import com.icmi.Shoping.Activities.SearchActivity.SearchActivity;
-import com.icmi.Shoping.Activities.Test.TestActivity;
-import com.icmi.Shoping.Fragments.Adapters.FragmentAdapter;
 import com.icmi.Shoping.Fragments.Adapters.ImageAdapter;
 import com.icmi.Shoping.R;
-import com.icmi.Shoping.Utils.NetworkChangeReceiver;
+import com.icmi.Shoping.databinding.ActivityMainBinding;
+import com.icmi.Shoping.databinding.BottomNavbarBinding;
 
 public class MainActivity extends BaseActivity {
+    ActivityMainBinding binding;
     ViewPager2 vp;
     TabLayout tl;
 
 //    FragmentAdapter adapter;
 
+    private void initView() {
+        binding = ActivityMainBinding.inflate(getLayoutInflater());
+        View view = binding.getRoot();
+        setContentView(view);
+
+    }
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_main);
-
+        initView();
         intializeViewComponents();
 
 
@@ -88,13 +98,22 @@ public class MainActivity extends BaseActivity {
 
     }
 
-    private void intializeViewComponents() {
-        vp = findViewById(R.id.itemViewPager);
-        tl = findViewById(R.id.category_tabLayout);
-        findViewById(R.id.profile).setOnClickListener(v -> setContentView(R.layout.activity_profile));
 
+    private void setMenuClickListeners() {
+        findViewById(R.id.home).setOnClickListener(v-> Toast.makeText(MainActivity.this, "Home", Toast.LENGTH_SHORT).show());
+        findViewById(R.id.liked).setOnClickListener(v->startActivity(Auth.class,null,true));
+        findViewById(R.id.cart).setOnClickListener(v->startActivity(OrderHistoryActivity.class, null, false));
+        findViewById(R.id.profile).setOnClickListener(v->startActivity(ProfileActivity.class,null,false));
+
+    }
+
+
+    private void intializeViewComponents() {
+        vp = binding.itemViewPager;
+        tl = binding.categoryTabLayout;
+
+        setMenuClickListeners();
 //        findViewById(R.id.profile).setOnClickListener(v -> startActivity(Auth.class, null, false));
-        findViewById(R.id.cart).setOnClickListener(v -> startActivity(ItemActivity.class, null, true));
 
         ImageButton menuBtn = findViewById(R.id.menuBtn);
         DrawerLayout dl = findViewById(R.id.dl);

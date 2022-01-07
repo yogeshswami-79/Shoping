@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_gravity="center"
+    android:gravity="center"
+    android:orientation="vertical">
+
+    <ImageView
+        android:layout_width="323dp"
+        android:layout_height="323dp"
+        android:src="@mipmap/history_foreground" />
+
+    <TextView
+        android:layout_width="323dp"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="20dp"
+        android:layout_marginTop="5dp"
+        android:fontFamily="@font/raleway_semibold"
+        android:text="No history yet"
+        android:textAlignment="center"
+        android:textSize="28sp" />
+
+    <TextView
+        android:layout_width="323dp"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="80dp"
+        android:layout_marginVertical="10dp"
+        android:fontFamily="@font/raleway_bold"
+        android:paddingHorizontal="45dp"
+        android:text="Hit the orange button down below to Create an order"
+        android:textAlignment="center"
+        android:textSize="17sp" />
+
+    <Button
+        android:layout_width="220dp"
+        android:layout_height="wrap_content"
+        android:layout_marginVertical="10dp"
+        android:background="@drawable/btn_bg"
+        android:backgroundTint="#58C0EA"
+        android:fontFamily="@font/raleway_bold"
+        android:padding="10dp"
+        android:text="Start Ordering"
+        android:textColor="@color/white" />
+</LinearLayout>

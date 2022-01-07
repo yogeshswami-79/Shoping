@@ -13,10 +13,18 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.Shoping">
         <activity
+            android:name=".Activities.Profile.ProfileActivity"
+            android:exported="false" />
+        <activity
+            android:name=".Activities.OrderHistory.OrderHistoryActivity"
+            android:exported="false" />
+
+        <activity
             android:name=".Activities.SearchActivity.SearchActivity"
             android:exported="false" />
-        <activity android:name=".Activities.ItemViewActivity.ItemActivity"
-            android:exported="false"/>
+        <activity
+            android:name=".Activities.ItemViewActivity.ItemActivity"
+            android:exported="false" />
         <activity
             android:name=".Activities.Test.TestActivity"
             android:exported="false" />

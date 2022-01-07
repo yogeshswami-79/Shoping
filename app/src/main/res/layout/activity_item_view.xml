@@ -14,13 +14,17 @@
             android:layout_width="30dp"
             android:layout_height="30dp"
             android:layout_alignParentStart="true"
-            android:layout_marginStart="20dp" />
+            android:layout_marginStart="20dp"
+            android:backgroundTint="#00ffffff"
+            android:src="@drawable/ic_arrow___left" />
 
         <ImageButton
             android:layout_width="30dp"
             android:layout_height="30dp"
             android:layout_alignParentEnd="true"
-            android:layout_marginEnd="20dp" />
+            android:layout_marginEnd="20dp"
+            android:backgroundTint="#00ffffff"
+            android:src="@drawable/ic_liked" />
     </RelativeLayout>
 
     <androidx.recyclerview.widget.RecyclerView
@@ -28,7 +32,8 @@
         android:layout_width="match_parent"
         android:layout_height="200dp"
         android:layout_below="@+id/rl_nav_btns"
-        android:layout_marginTop="10dp" />
+        android:layout_marginTop="10dp"
+        android:orientation="horizontal" />
 
     <LinearLayout
         android:layout_width="match_parent"
@@ -119,7 +124,7 @@ $4.99/month after free trial."
             android:layout_height="wrap_content"
             android:layout_gravity="center_horizontal"
             android:layout_marginTop="10dp"
-            android:background="@drawable/login_btn"
+            android:background="@drawable/btn_bg"
             android:fontFamily="@font/raleway_bold"
             android:paddingHorizontal="80dp"
             android:text="Add to basket"
